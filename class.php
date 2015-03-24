@@ -3,7 +3,7 @@
 class sytax_highlighter
 {
 
-    function __construct($file, $isfile = true)
+    function __construct($file)
     {
         if (is_file($file)) {
             $code = file($file);
