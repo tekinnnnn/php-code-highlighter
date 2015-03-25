@@ -25,10 +25,6 @@ class sytax_highlighter
         
         $line = implode("\r", $td1);
         $code = implode("\r", $td2);
-        $tr = array(
-            $line,
-            $code
-        );
         
         ?>
 
